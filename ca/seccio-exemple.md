@@ -1,5 +1,7 @@
 # 1. Secció d'exemple
 
+Hagamos un cambio
+
 ## 1.1. Importing files
 
 {% include "git+https://github.com/decidim/docs-editing-guide.git/README.md" %}
