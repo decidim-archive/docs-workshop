@@ -1,20 +1,20 @@
 {
-  "name": "docs-SLUG",
+  "name": "docs-workshop",
   "version": "1.0.0",
   "description": "Document Description",
   "keywords": [
     "Decidim",
     "docs",
-    "SLUG"
+    "workshop"
   ],
-  "homepage": "https://docs.decidim.org/SLUG/",
-  "repository": "github:decidim/docs-SLUG",
+  "homepage": "https://docs.decidim.org/workshop/",
+  "repository": "github:decidim/docs-workshop",
   "license": "AGPL-3.0",
   "author": "Decidim Team <hola@decidim.org> (https://decidim.org/)",
   "scripts": {
     "start": "gitbook serve",
-    "prebuild": "gitbook build . SLUG",
-    "build": "mkdir -p _book && mv -t _book SLUG",
+    "prebuild": "gitbook build . workshop",
+    "build": "mkdir -p _book && mv -t _book workshop",
     "postbuild": "cp _redirects _book/"
   },
   "dependencies": {
