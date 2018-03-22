@@ -1,6 +1,6 @@
 # 1. Secció d'exemple
 
-# Toma secció
+# 1.0. Toma secció
 
 ## 1.1. Importing files
 
